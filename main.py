@@ -273,6 +273,7 @@ def get_ip_location(timeout=4):
 def main():
     # Beispiel: Berlin
     lat, lon, city, region, country = get_ip_location()
+    # lat, lon, city, region, country = 51.0165447, 14.7438435, "Herrnhut", "Saxony", "Germany"
     weather_data, location_info, response = get_weather(lat, lon, place_name=city, region=region, country=country)
 
     # Hinweis, falls Cache/Fallback genutzt wurde

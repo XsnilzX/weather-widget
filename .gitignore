@@ -8,3 +8,8 @@ wheels/
 
 # Virtual environments
 .venv
+
+# cache
+.cache.sqlite
+.om_cache.sqlite
+.openmeteo_cache.sqlite
